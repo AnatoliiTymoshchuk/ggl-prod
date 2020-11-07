@@ -10,7 +10,7 @@ resource "google_compute_instance" "default" {
  machine_type = "f1-micro"
  boot_disk {
    initialize_params {
-     image = "Ubuntu16.04_64-bit"
+     image = "ubuntu-1804-bionic-v20201014"
    }
  }
  network_interface {
